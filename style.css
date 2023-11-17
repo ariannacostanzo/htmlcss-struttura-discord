@@ -54,3 +54,63 @@ nav {
     border: var(--border);
     width: 50%;
 }
+
+/* main content */
+
+.section {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-gray {
+    background-color: lightgray;
+}
+
+/* main boxes */
+
+.main-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 100%;
+    padding: 50px 0;
+}
+
+.main-box {
+    min-height: 100%;
+    border: var(--border);
+}
+
+
+.main-box.main-box-large {
+    background-color: dodgerblue;
+    flex-basis: 60%;
+    
+}
+
+.main-box.main-box-small {
+    background-color: pink;
+    flex-basis: 40%;
+    
+}
+
+/* green section */
+
+.large-section {
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box.main-box-extra-large {
+    background-color: forestgreen;
+    flex-basis: 100%;
+}
