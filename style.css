@@ -1,7 +1,56 @@
+/* variables */
+:root {
+    --border: 2px dashed black;
+}
+
 /* CSS RESET */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* header */
+
+header {
+    background-color: lightblue;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: goldenrod;
+    display: flex;
+    width: 60%;
+    min-height: 60%;
+}
+
+.small-header-box {
+    flex-basis: 20%;
+    border: var(--border);
+}
+
+.large-header-box {
+    flex-grow: 1;
+    border: var(--border);
+}
+
+/* hero container */
+
+.hero-image-container {
+    background-color: darkblue;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    background-color: violet;
+    height: 80%;
+    border: var(--border);
+    width: 50%;
 }
